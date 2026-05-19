@@ -339,4 +339,4 @@ if __name__ == "__main__":
     print("  Triple Integration Practice App")
     print("  Open http://127.0.0.1:5000 in your browser")
     print("=" * 55)
-    app.run(debug=True, port=5000)
+    app.run(host="0.0.0.0", port=5000)
