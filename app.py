@@ -1,14 +1,3 @@
-
-
-Skip to content
-Using Pimpri Chinchwad College of Engineering Mail with screen readers
-
-Conversations
- 
-Program Policies
-Powered by Google
-Last account activity: 3 hours ago
-Details
 from flask import Flask, render_template, request, jsonify, session
 import sympy as sp
 from sympy.parsing.sympy_parser import (
@@ -351,5 +340,3 @@ if __name__ == "__main__":
     print("  Open http://127.0.0.1:5000 in your browser")
     print("=" * 55)
     app.run(debug=True, port=5000)
-app.py
-Displaying app.py.
